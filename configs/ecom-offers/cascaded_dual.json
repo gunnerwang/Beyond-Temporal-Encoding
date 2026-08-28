@@ -1,0 +1,50 @@
+{
+  "model": {
+    "context_size": 3000,
+    "slow_prior_config": {
+      "context_size": 3000,
+      "use_retrieval": false
+    },
+    "use_ensemble_gating": true,
+    "ensemble_mode": "fixed",
+    "ensemble_variants": [
+      "ts",
+      "tn",
+      "seed1",
+      "seed2",
+      "seed3",
+      "xgb"
+    ],
+    "ensemble_weights": {
+      "ts": 0.28112,
+      "tn": 0.18884,
+      "seed1": 0.00558,
+      "seed2": 0.15726,
+      "seed3": 0.04996,
+      "xgb": 0.31725,
+      "idx": 0.0
+    },
+    "online_scale": 0.697663,
+    "online_k": 189,
+    "dual_buffer_size": 910,
+    "dual_buffer_mix_w": 0.000568,
+    "dual_buffer_short_softmax_temp": 1.922255,
+    "dual_buffer_long_softmax_temp": 29.304842,
+    "knn_clip": 9.429124,
+    "temporal_decay": 0.9999,
+    "use_cascaded_residual": true,
+    "cascaded_scale": 0.034128,
+    "cascaded_k": 187,
+    "cascaded_clip": 4.284384,
+    "cascaded_warmup": 123,
+    "cascaded_use_dual_buffer": true,
+    "cascaded_short_buf2": 64,
+    "cascaded_long_buf2": 2048,
+    "cascaded_short_temp2": 0.515394,
+    "cascaded_long_temp2": 5.695272,
+    "cascaded_dual_mix2": 0.563537,
+    "online_buffer_size": 36400,
+    "knn_softmax_temp": 29.304842,
+    "cls_embedding_type": "tree_leaf"
+  }
+}

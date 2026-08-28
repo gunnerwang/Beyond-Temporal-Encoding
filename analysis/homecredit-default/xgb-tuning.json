@@ -1,0 +1,25 @@
+{
+  "dataset": "homecredit-default",
+  "best_val_auc": 0.8455980825438929,
+  "test_auc_ensemble": 0.8672809680392961,
+  "test_auc_per_seed": [
+    0.8666104987213211,
+    0.866244435026669,
+    0.8669118440958322,
+    0.8671620714307234,
+    0.867436141966309
+  ],
+  "n_seeds": 5,
+  "n_trials": 200,
+  "best_params": {
+    "max_depth": 8,
+    "learning_rate": 0.007070980301007814,
+    "subsample": 0.591359785798561,
+    "colsample_bytree": 0.3470647027838176,
+    "min_child_weight": 50,
+    "reg_alpha": 3.0453480292449355,
+    "reg_lambda": 4.1323948711683105,
+    "gamma": 1.9703660972378043,
+    "scale_pos_weight": 1.107021826355998
+  }
+}

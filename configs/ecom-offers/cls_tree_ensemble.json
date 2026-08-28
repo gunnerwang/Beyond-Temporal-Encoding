@@ -1,0 +1,18 @@
+{
+  "description": "Tree ensemble + kNN classification pipeline for ecom-offers",
+  "embedding_type": "catboost_leaf",
+  "ensemble_weights": {
+    "xgb": 0.34553,
+    "catboost": 0.58969,
+    "lightgbm": 0.08636
+  },
+  "knn": {
+    "online_scale": 0.4543,
+    "online_k": 80,
+    "dual_mix": 0.0675,
+    "short_temp": 13.64,
+    "long_temp": 13.81,
+    "knn_clip": 1.44,
+    "buf_size": 971
+  }
+}

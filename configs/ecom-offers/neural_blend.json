@@ -1,0 +1,19 @@
+{
+  "description": "Tree + Neural ensemble for ecom-offers",
+  "embedding_type": "tree_leaf",
+  "ensemble_weights": {
+    "catboost": 0.0987,
+    "lightgbm": 0.0785,
+    "tabm_modulated": 0.7253,
+    "mlp_modulated": 0.0974
+  },
+  "knn": {
+    "online_scale": 0.0,
+    "online_k": 80,
+    "dual_mix": 0.0,
+    "short_temp": 13.64,
+    "long_temp": 13.81,
+    "knn_clip": 1.44,
+    "buf_size": 971
+  }
+}

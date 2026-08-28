@@ -1,0 +1,25 @@
+{
+  "dataset": "homesite-insurance",
+  "best_val_auc": 0.9581853804566224,
+  "test_auc_ensemble": 0.9606395823823447,
+  "test_auc_per_seed": [
+    0.9613229652500428,
+    0.9604849918655137,
+    0.959886128789606,
+    0.9607468751597733,
+    0.9459457996659608
+  ],
+  "n_seeds": 5,
+  "n_trials": 200,
+  "best_params": {
+    "max_depth": 7,
+    "learning_rate": 0.009911305060689742,
+    "subsample": 0.9600625733095499,
+    "colsample_bytree": 0.952582251096273,
+    "min_child_weight": 7,
+    "reg_alpha": 2.114063019868221,
+    "reg_lambda": 0.017591646395438868,
+    "gamma": 1.152934392586721,
+    "scale_pos_weight": 1.3939966186160144
+  }
+}

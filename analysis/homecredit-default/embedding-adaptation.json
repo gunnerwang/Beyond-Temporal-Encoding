@@ -1,0 +1,36 @@
+{
+  "method": "adaptive_embedding",
+  "dataset": "homecredit-default",
+  "best_rmse": null,
+  "best_auc": 0.8107046775516844,
+  "metric": "auc",
+  "baseline_rmse": null,
+  "params": {
+    "w_ts": 0.10409045111750412,
+    "w_tn": 0.1827252109454798,
+    "w_s1": 0.21847953205394086,
+    "w_s2": 0.03082259824459664,
+    "w_s3": 0.0366116635170388,
+    "w_xgb": 0.30575349270556035,
+    "online_scale": 0.3035791099935467,
+    "online_k": 198,
+    "dual_buffer_mix_w": 0.7133919037329087,
+    "short_temp": 4.340809731335963,
+    "long_temp": 9.899920178008552,
+    "knn_clip": 1.4388600266447351,
+    "buf_size": 512,
+    "rank": 16,
+    "lr": 0.0003547123671591251,
+    "weight_decay": 1.546283491185118e-05
+  },
+  "n_trials": 100,
+  "priors": [
+    "idx",
+    "ts",
+    "tn",
+    "s1",
+    "s2",
+    "s3",
+    "xgb"
+  ]
+}

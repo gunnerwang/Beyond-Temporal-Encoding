@@ -1,0 +1,39 @@
+{
+  "method": "adaptive_combined",
+  "dataset": "homecredit-default",
+  "best_value": 0.1771298009584461,
+  "metric": "auc",
+  "best_rmse": null,
+  "best_auc": 0.8228701990415539,
+  "baseline_rmse": null,
+  "params": {
+    "w_ts": 0.08834699374166696,
+    "w_tn": 0.03942390773749404,
+    "w_s1": 0.06282952536800146,
+    "w_s2": 0.12147252794219417,
+    "w_s3": 0.0823646011908516,
+    "w_xgb": 0.4998085995087635,
+    "online_scale": 0.31585426080510537,
+    "online_k": 142,
+    "short_temp": 6.21084696228132,
+    "long_temp": 7.338362739016463,
+    "knn_clip": 1.1995283983929628,
+    "buf_size": 1024,
+    "base_mix_w": 0.7045709761186262,
+    "alpha": 2.4248954433934333,
+    "drift_window": 448,
+    "rank": 4,
+    "lr": 1.2024034598787592e-05,
+    "weight_decay": 0.0020592931982973323
+  },
+  "n_trials": 300,
+  "priors": [
+    "idx",
+    "ts",
+    "tn",
+    "s1",
+    "s2",
+    "s3",
+    "xgb"
+  ]
+}

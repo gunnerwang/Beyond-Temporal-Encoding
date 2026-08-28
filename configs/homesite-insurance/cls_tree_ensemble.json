@@ -1,0 +1,18 @@
+{
+  "description": "Tree ensemble + kNN classification pipeline for homesite-insurance",
+  "embedding_type": "tree_leaf",
+  "ensemble_weights": {
+    "xgb": 0.00448,
+    "catboost": 0.89833,
+    "lightgbm": 0.90811
+  },
+  "knn": {
+    "online_scale": 0.2569,
+    "online_k": 59,
+    "dual_mix": 0.4244,
+    "short_temp": 26.17,
+    "long_temp": 13.19,
+    "knn_clip": 5.74,
+    "buf_size": 1210
+  }
+}

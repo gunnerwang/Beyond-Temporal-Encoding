@@ -1,0 +1,17 @@
+{
+  "description": "Tree + Neural ensemble + online kNN for maps-routing",
+  "ensemble_weights": {
+    "xgb": 0.6283,
+    "cb": 0.0,
+    "lgb": 0.0956,
+    "tabm_modulated": 0.0483,
+    "mlp_modulated": 0.2277
+  },
+  "knn": {
+    "k": 50,
+    "scale": 0.3,
+    "temp": 15.0,
+    "clip": 0.2,
+    "buf_size": 1024
+  }
+}

@@ -1,0 +1,57 @@
+{
+    "model": {
+        "context_size": 3000,
+        "slow_prior_config": {
+            "context_size": 3000,
+            "use_retrieval": false
+        },
+        "use_ensemble_gating": true,
+        "ensemble_mode": "fixed",
+        "ensemble_variants": [
+            "ts",
+            "tn",
+            "seed1",
+            "seed2",
+            "seed3",
+            "xgb"
+        ],
+        "ensemble_weights": {
+            "ts": 0.1050876825824846,
+            "tn": 0.020333060305850442,
+            "seed1": 0.11416173215879594,
+            "seed2": 0.06121412820278824,
+            "seed3": 0.20394352773184904,
+            "xgb": 0.44442385900109466,
+            "idx": 0.050836010017137
+        },
+        "online_scale": 0.7785232277437507,
+        "online_k": 53,
+        "dual_buffer_size": 512,
+        "dual_buffer_mix_w": 0.41037558932581764,
+        "dual_buffer_short_softmax_temp": 9.368213212753728,
+        "dual_buffer_long_softmax_temp": 3.006907356564753,
+        "knn_clip": 4.148301986846172,
+        "temporal_decay": 0.9999,
+        "use_drift_mixw": true,
+        "drift_base_mix_w": 0.522692866764331,
+        "drift_alpha": 4.841232679597486,
+        "drift_window_size": 512,
+        "use_adaptive_embedding": false,
+        "adaptive_rank": 4,
+        "adaptive_lr": 1.0,
+        "adaptive_weight_decay": 1e-06,
+        "use_cascaded_residual": true,
+        "cascaded_scale": 0.1565983521300605,
+        "cascaded_k": 69,
+        "cascaded_clip": 0.7115818665663909,
+        "cascaded_warmup": 116,
+        "cascaded_use_dual_buffer": true,
+        "cascaded_short_buf2": 512,
+        "cascaded_long_buf2": 8192,
+        "cascaded_short_temp2": 3.594661,
+        "cascaded_long_temp2": 13.684023,
+        "cascaded_dual_mix2": 0.048262,
+        "cascaded_temp": 1.1968093874723085,
+        "cascaded_buf_size": 1024
+    }
+}

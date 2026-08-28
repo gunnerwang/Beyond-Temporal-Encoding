@@ -1,0 +1,17 @@
+{
+  "description": "Tree ensemble + kNN classification pipeline for homecredit-default (XGBoost and CatBoost)",
+  "embedding_type": "tree_leaf",
+  "ensemble_weights": {
+    "xgb": 0.85949,
+    "catboost": 0.85371
+  },
+  "knn": {
+    "online_scale": 0.2873,
+    "online_k": 29,
+    "dual_mix": 0.6470,
+    "short_temp": 14.32,
+    "long_temp": 5.03,
+    "knn_clip": 1.33,
+    "buf_size": 873
+  }
+}

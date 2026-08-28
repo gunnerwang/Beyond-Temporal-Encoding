@@ -1,0 +1,19 @@
+# Cached prior predictions and embeddings (see docs/data.md)
+cache/
+# Datasets (see docs/data.md)
+tabred/
+data/
+# Upstream checkout created by setup.sh
+talent/
+# Runs
+*.db
+*.log
+results/
+checkpoints/
+catboost_info/
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.ipynb_checkpoints/

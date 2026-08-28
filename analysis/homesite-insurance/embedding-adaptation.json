@@ -1,0 +1,36 @@
+{
+  "method": "adaptive_embedding",
+  "dataset": "homesite-insurance",
+  "best_rmse": null,
+  "best_auc": 0.9300092039105458,
+  "metric": "auc",
+  "baseline_rmse": 0.2960402297584934,
+  "params": {
+    "w_ts": 0.059928675751264884,
+    "w_tn": 0.050765323656063795,
+    "w_s1": 0.05351553138024781,
+    "w_s2": 0.14572427277672104,
+    "w_s3": 0.06196724281942664,
+    "w_xgb": 0.49800793850519953,
+    "online_scale": 0.3043303825180259,
+    "online_k": 186,
+    "dual_buffer_mix_w": 0.15564090455275853,
+    "short_temp": 15.544919994589865,
+    "long_temp": 3.374853849283802,
+    "knn_clip": 2.4342157197169603,
+    "buf_size": 128,
+    "rank": 4,
+    "lr": 4.398471346809526e-05,
+    "weight_decay": 0.000389406848110839
+  },
+  "n_trials": 100,
+  "priors": [
+    "idx",
+    "ts",
+    "tn",
+    "s1",
+    "s2",
+    "s3",
+    "xgb"
+  ]
+}

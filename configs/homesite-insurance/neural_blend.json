@@ -1,0 +1,19 @@
+{
+  "description": "Tree + Neural ensemble for homesite-insurance",
+  "embedding_type": "tree_leaf",
+  "ensemble_weights": {
+    "catboost": 0.1616,
+    "lightgbm": 0.5328,
+    "tabm_modulated": 0.2188,
+    "mlp_modulated": 0.0867
+  },
+  "knn": {
+    "online_scale": 0.0,
+    "online_k": 80,
+    "dual_mix": 0.0,
+    "short_temp": 13.64,
+    "long_temp": 13.81,
+    "knn_clip": 1.44,
+    "buf_size": 971
+  }
+}

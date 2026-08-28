@@ -1,0 +1,29 @@
+{
+  "dataset": "homecredit-default",
+  "no_knn_auc": 0.8683518620009617,
+  "no_knn_weights": {
+    "w_xgb": 0.9233222876029611,
+    "w_catboost": 0.6858500376881418
+  },
+  "n_trials": 300,
+  "results": {
+    "tree_leaf": {
+      "auc": 0.8696856996712223,
+      "delta": 0.0013338376702606292,
+      "weights": {
+        "xgb": 0.859494744612982,
+        "catboost": 0.853708039905566
+      },
+      "knn_params": {
+        "online_scale": 0.28728858821084746,
+        "online_k": 29,
+        "dual_mix": 0.6470396024351711,
+        "short_temp": 14.322435744315348,
+        "long_temp": 5.031860590257695,
+        "knn_clip": 1.3296038580618956,
+        "buf_size": 873
+      },
+      "elapsed_s": 1445.7116091251373
+    }
+  }
+}

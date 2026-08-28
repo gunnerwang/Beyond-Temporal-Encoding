@@ -1,0 +1,43 @@
+{
+  "model": {
+    "context_size": 3000,
+    "slow_prior_config": {
+      "context_size": 3000,
+      "use_retrieval": false
+    },
+    "use_ensemble_gating": true,
+    "ensemble_mode": "fixed",
+    "ensemble_variants": [
+      "ts",
+      "tn",
+      "seed1",
+      "seed2",
+      "seed3",
+      "xgb"
+    ],
+    "ensemble_weights": {
+      "ts": 0.12068196680997195,
+      "tn": 0.06157046039450414,
+      "seed1": 0.06890562482040957,
+      "seed2": 0.10566217018410755,
+      "seed3": 0.12057159573615713,
+      "xgb": 0.44624846154335085,
+      "idx": 0.07635972051149875
+    },
+    "online_scale": 0.9458582876954399,
+    "online_k": 180,
+    "dual_buffer_size": 128,
+    "dual_buffer_mix_w": 0.4586882531914613,
+    "dual_buffer_short_softmax_temp": 11.84438681325555,
+    "dual_buffer_long_softmax_temp": 11.547360566168413,
+    "knn_clip": 2.1677108910386695,
+    "temporal_decay": 0.9999,
+    "use_cascaded_residual": false,
+    "cascaded_scale": 0.194,
+    "cascaded_k": 47,
+    "cascaded_temp": 1.3,
+    "cascaded_clip": 2.67,
+    "cascaded_buf_size": 4096,
+    "cascaded_warmup": 385
+  }
+}
